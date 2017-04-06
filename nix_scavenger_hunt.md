@@ -26,6 +26,8 @@ Desktop		Downloads	Movies		Pictures	blog**
 
 * You can use *options* to modify how a command runs. Try using `ls -alh` to see the contents of your current directory. *How are the results different when you use the `-alh` options?*
 
+**It is much more detailed**
+
 **drwxr-xr-x+ 23 billvasilopoulos  staff   782B Mar 30 12:44 .
 drwxr-xr-x   6 root              admin   204B Jan 11 13:33 ..
 -r--------   1 billvasilopoulos  staff     7B Jan 11 13:31 .CFUserTextEncoding
