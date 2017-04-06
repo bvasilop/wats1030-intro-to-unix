@@ -16,17 +16,17 @@ and then clone it to your development environment.
 
 * Get an idea of where you are in the operating system. Use the `pwd` command to find your "path to working directory"--your current location in the filesystem of your devbox. *Paste the output of the `pwd` command here:* 
 
-/Users/billvasilopoulos
+**/Users/billvasilopoulos
 
 * Discover more about this filesystem. Use `ls` (the "list" command)to see what is in this directory. *What directories and files do you see when you run `ls`?*
 
-Bills-MBP:~ billvasilopoulos$ ls
+**Bills-MBP:~ billvasilopoulos$ ls
 Applications	Documents	Library		Music		Public
 Desktop		Downloads	Movies		Pictures	blog
 
 * You can use *options* to modify how a command runs. Try using `ls -alh` to see the contents of your current directory. *How are the results different when you use the `-alh` options?*
 
-drwxr-xr-x+ 23 billvasilopoulos  staff   782B Mar 30 12:44 .
+**drwxr-xr-x+ 23 billvasilopoulos  staff   782B Mar 30 12:44 .
 drwxr-xr-x   6 root              admin   204B Jan 11 13:33 ..
 -r--------   1 billvasilopoulos  staff     7B Jan 11 13:31 .CFUserTextEncoding
 -rw-r--r--@  1 billvasilopoulos  staff    12K Mar 21 21:48 .DS_Store
@@ -52,7 +52,7 @@ drwxr-xr-x   4 billvasilopoulos  staff   136B Mar 29 22:22 blog
 
 * The `man` ("manual") command tells you more about how any given command works. (*WARNING:* CodeAnywhere does not support the man command. You can click the following link to complete this task: http://linux.die.net/man/). Run `man` to see instructions about how to use `man`. Then use `man` to learn what the `a`, `l`, and `h` options mean when used with the `ls` command. *Write down what those options do?*
 
--a, --all
+**-a, --all
 do not ignore entries starting with .
 -l
 use a long listing format
@@ -61,7 +61,7 @@ with -l, print sizes in human readable format (e.g., 1K 234M 2G)
 
 * Commands can also take *arguments*, which are usually the names of files or locations that you want the command to work with. Try running `ls /` to see what files are in the *root* directory of the filesystem. *What files and directories do you see listed?*
 
-Bills-MBP:~ billvasilopoulos$ ls /
+**Bills-MBP:~ billvasilopoulos$ ls /
 Applications			etc
 Library				home
 Network				installer.failurerequests
@@ -74,54 +74,54 @@ dev				var
 
 * A Unix filesystem has a few special shortcuts to refer to specific locations. `/` indicates the *root* of the filesystem, meaning the top-most directory in the filesystem hierarchy. Use the `cd` ("change directory") command to move to the root directory. (Hint: Use `man` to look up the `cd` command if you have any issues) *Then run `pwd` and paste the output here:*
 
-Bills-MBP:~ billvasilopoulos$ cd
+**Bills-MBP:~ billvasilopoulos$ cd
 Bills-MBP:~ billvasilopoulos$ pwd
 /Users/billvasilopoulos
 
 * Another special shortcut in Unix is the `~` location. This indicates the *user root* directory, meaning the top-most directory in the hierarchy that comes below your user account. Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
 
-Bills-MBP:~ billvasilopoulos$ cd ~
+**Bills-MBP:~ billvasilopoulos$ cd ~
 Bills-MBP:~ billvasilopoulos$ pwd
 /Users/billvasilopoulos
 
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
 
-3
+**3
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
 
-Bills-MBP:challenge_files billvasilopoulos$ cd
+**Bills-MBP:challenge_files billvasilopoulos$ cd
 Bills-MBP:~ billvasilopoulos$ ls
 Applications	Documents	Library		Music		Public
 Desktop		Downloads	Movies		Pictures	blog
 
 * Press the up arrow on your keyboard. *What just happened?*
 
-the last command I typed ls appeared in the command line
+**the last command I typed ls appeared in the command line
 
 * Press the up arrow a few more times. *What do you see?*
 
-It scrolled through previous commands that I typed into the command line
+**It scrolled through previous commands that I typed into the command line
 * Run the `history` command. *What do you see?*
 
-All the commands I entered in the terminal in chronological order.
+**All the commands I entered in the terminal in chronological order.
 
 ### Observing the System
 
 * Discover what account you are logged into using the `whoami` command. *What username are you currently using?*
 
-billvasilopoulos
+**billvasilopoulos
 
 * Discover who else is on your system with the `who` command. *Are any other users using your system? If so, list them here:*
 
-I am the only user
+**I am the only user
 
 * How long has your system been running? Use `uptime` to see, and *paste the result here:*
 
-15:01  up 23:32, 2 users, load averages: 1.33 1.39 1.38
+**15:01  up 23:32, 2 users, load averages: 1.33 1.39 1.38
 
 * Run `ps aux` and review the results. (Hint: Use `man` to learn more about the `ps` command and options.) *How do you interpret what you see here?*
 
-USER(username) 
+**USER(username) 
 PID(is used for monitoring individual tasks)  
 %CPU(The percentage of your CPU that is being used by the process) 
 %MEM(% of available memory used)      
@@ -135,7 +135,7 @@ COMMAND(what type of command)
 
 * Run `top` and review the results. (Hint: You may need to use `ctrl-c` to get out of this app.) *How do you interpret what you see here?*
 
-PID(is used for monitoring individual tasks) 
+**PID(is used for monitoring individual tasks) 
 COMMAND(what type of command)
 %CPU(The percentage of your CPU that is being used by the process)
 TIME(time stamp of command)
@@ -153,19 +153,19 @@ STATE(if app is running or sleeping)
 
 * Make sure you are in the `challenge_files` directory. Use the `*` wildcard to find all the files that have the word "credit" in the filename. *How many files did you find?*
 
-credit_cards.txt	credit_cards2.txt (2files)
+**credit_cards.txt	credit_cards2.txt (2files)
 
 * Use the `more` command to view one of the `credit_cards` files you just discovered. (Hint: Type `q` to quit viewing the file. Press the `spacebar` to page down. Use your keyboard arrows to move up/down.) *What is the date in the file you have viewed?*
 
-Last updated: 01-15-2015
+**Last updated: 01-15-2015
 
 * Use the `find` command to search for files more effectively. Search the sub-directories under `challenge_files` to find the location of the file named `modi_laboriosam.txt`. *Where is that file located?*
 
-/Users/billvasilopoulos/wats1030-intro-to-unix/challenge_files/wats1030-intro-to-unix/challenge_files/tmp
+**/Users/billvasilopoulos/wats1030-intro-to-unix/challenge_files/wats1030-intro-to-unix/challenge_files/tmp
 
 * Use the `grep` command to search for text within a file. Use `grep` on all the `.user` files in `challenge_files` to find which files contain "WA" (the abbreviation for Washington state). *How many files did you find?*
 
-Britt-Erdman.user
+**Britt-Erdman.user
 Lissie-Strosin.user
 
 * Use the `-r` option of `grep` to *recursively* find the text "Waldo" hidden in a file somewhere under the `challenge_files` directory. *Paste the result showing the file and line where the word "Waldo" shows up.*
@@ -175,15 +175,15 @@ eaque_molestiae.txt
 
 * Sometimes it's useful to output the results of a command to a text file for further analysis, reference, or processing. Try running `ls > files.txt`. Notice that the file `files.txt` was created. View that file using `more`. *What do you see in the `files.txt` file?*
 
-It is highlighted in black
+**It is highlighted in black
 
 * Notice that if you run `ls -alh` in the `challenge_files` directory, the files scroll by very quickly. Sometimes it would be better to get the results in a paginated format. Try running `ls -alh | more`. *Describe what you see when you run `ls -alh | more`.*
 
-It allows you to scroll more slowly using the spacebar
+**It allows you to scroll more slowly using the spacebar
 
 * Earlier, when you viewed the list of active processes on your devbox using `ps aux`, the list was probably really long. You can make this list more manageable by using the pipe (`|`) to filter the results of `ps` using `grep`. Run `ps aux | grep <your_username>` to see what processes are running for your specific user. *Paste the list of processes that reference your username here:*
 
-Bills-MBP:challenge_files billvasilopoulos$  ps aux | grep billvasilopoulos
+**Bills-MBP:challenge_files billvasilopoulos$  ps aux | grep billvasilopoulos
 billvasilopoulos   284   5.2  1.3  3849228 220812   ??  S    Tue03PM  35:14.20 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome -psn_0_40970
 billvasilopoulos   823   4.1  2.1  5641592 354512   ??  S    Tue03PM  71:56.78 /Applications/Google Chrome.app/Contents/Versions/57.0.2987.133/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=1 --primordial-pipe-token=76B643B131D5E4D3DE0E7979F1B917B1 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=4 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=76B643B131D5E4D3DE0E7979F1B917B1 --renderer-client-id=50
 billvasilopoulos  3046   1.1  0.6  3594944 104448   ??  S     1:08PM   2:42.38 /Applications/Google Chrome.app/Contents/Versions/57.0.2987.133/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --field-trial-handle=1 --primordial-pipe-token=569D23B9B16709E1222527762E43EEEF --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=disallowFetchForDocWrittenScriptsInMainFrame=false,disallowFetchForDocWrittenScriptsInMainFrameOnSlowConnections=true --enable-pinch --num-raster-threads=4 --enable-gpu-rasterization --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,34037;0,11,34037;0,12,34037;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,34037;1,11,34037;1,12,34037;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,34037;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,34037;2,13,3553;2,14,34037;2,15,34037;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,34037;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,34037;3,13,3553;3,14,34037;3,15,34037 --service-request-channel-token=569D23B9B16709E1222527762E43EEEF --renderer-client-id=120
