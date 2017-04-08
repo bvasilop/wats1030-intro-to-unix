@@ -18,11 +18,11 @@ extend their knowledge of the *nix command line.
 
 **https://www.rottentomatoes.com/m/zardoz/**
 
-**42 is the result given by the web search engines Google and Wolfram Alpha when the query *_ "the answer to life the universe and everything" is entered as a search.
+**42 is the result given by the web search engines Google and Wolfram Alpha when the query**  _"the answer to life the universe and everything" is entered as a search._
 
  
 **https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy**
 
- **"In the radio series and the first novel, a group of hyper-intelligent pan-dimensional beings demand to learn** *_the Answer to the Ultimate Question of Life, The Universe, and Everything from the supercomputer"_*
+ **"In the radio series and the first novel, a group of hyper-intelligent pan-dimensional beings demand to learn** _the Answer to the Ultimate Question of Life, The Universe, and Everything from the supercomputer"_
  
  
