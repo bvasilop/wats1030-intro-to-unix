@@ -18,7 +18,7 @@ extend their knowledge of the *nix command line.
 
 **https://www.rottentomatoes.com/m/zardoz/**
 
-**42 is the result given by the web search engines Google and Wolfram Alpha when the query** *_ "the answer to life the universe and everything" is entered as a search.
+**42 is the result given by the web search engines Google and Wolfram Alpha when the query**  _"the answer to life the universe and everything" is entered as a search.
 
  
 **https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy**
