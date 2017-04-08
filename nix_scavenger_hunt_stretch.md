@@ -11,8 +11,8 @@ extend their knowledge of the *nix command line.
  
  **http://filmsack.com/search/Zardoz/feed/rss2/**
  
- description>**Mining the depths of film entertainment for all mankind**...</description>
-	lastBuildDate> **Sun, 02 Apr 2017** 19:08:08 +0000</lastBuildDate>
+ description>**_Mining the depths of film entertainment for all mankind_**...</description>
+	lastBuildDate> **_Sun, 02 Apr 2017_** 19:08:08 +0000</lastBuildDate>
  
  **Also rotten tomatoes score of 42%**
 
