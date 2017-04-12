@@ -25,7 +25,7 @@ extend their knowledge of the *nix command line.
 
  **"In the radio series and the first novel, a group of hyper-intelligent pan-dimensional beings demand to learn** _the Answer to the Ultimate Question of Life, The Universe, and Everything from the supercomputer"_
  
---------** after consulting with a classmate, Kim F., I realized that I went about the stretch goals all wrong and found the answer, but not in the way the assignment intended. I followed her advice and used grep -r to find the clues (zardoz, droids,'Find the house number for Jayme Rodriguez. 42 is the answer.) Just wanted to clarify because my previous methods were not the best way to complete the assignment.**
+** after consulting with a classmate, Kim F., I realized that I went about the stretch goals all wrong and found the answer, but not in the way the assignment intended. I followed her advice and used grep -r to find the clues (zardoz, droids,'Find the house number for Jayme Rodriguez. 42 is the answer.) Just wanted to clarify because my previous methods were not the best way to complete the assignment.**
 
 
  
